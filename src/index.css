@@ -81,3 +81,26 @@ body {
 .todo-delete-btn:hover {
   background-color: #d73933;
 }
+
+@media (max-width: 768px) {
+  .todo-app-container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .todo-app-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .todo-input,
+  .todo-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .todo-item {
+    font-size: 14px;
+  }
+}
